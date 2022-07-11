@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D0B6C231287CCB6900F08E1E /* PracApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B6C230287CCB6900F08E1E /* PracApp.swift */; };
+		D0B6C231287CCB6900F08E1E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B6C230287CCB6900F08E1E /* main.swift */; };
 		D0B6C233287CCB6900F08E1E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B6C232287CCB6900F08E1E /* ContentView.swift */; };
 		D0B6C235287CCB6B00F08E1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0B6C234287CCB6B00F08E1E /* Assets.xcassets */; };
 		D0B6C238287CCB6B00F08E1E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0B6C237287CCB6B00F08E1E /* Preview Assets.xcassets */; };
@@ -35,7 +35,7 @@
 
 /* Begin PBXFileReference section */
 		D0B6C22D287CCB6900F08E1E /* Prac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prac.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0B6C230287CCB6900F08E1E /* PracApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracApp.swift; sourceTree = "<group>"; };
+		D0B6C230287CCB6900F08E1E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D0B6C232287CCB6900F08E1E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D0B6C234287CCB6B00F08E1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0B6C237287CCB6B00F08E1E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -95,7 +95,7 @@
 		D0B6C22F287CCB6900F08E1E /* Prac */ = {
 			isa = PBXGroup;
 			children = (
-				D0B6C230287CCB6900F08E1E /* PracApp.swift */,
+				D0B6C230287CCB6900F08E1E /* main.swift */,
 				D0B6C232287CCB6900F08E1E /* ContentView.swift */,
 				D0B6C234287CCB6B00F08E1E /* Assets.xcassets */,
 				D0B6C239287CCB6B00F08E1E /* Prac.entitlements */,
@@ -260,7 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0B6C233287CCB6900F08E1E /* ContentView.swift in Sources */,
-				D0B6C231287CCB6900F08E1E /* PracApp.swift in Sources */,
+				D0B6C231287CCB6900F08E1E /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
